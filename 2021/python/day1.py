@@ -1,7 +1,7 @@
 from statistics import mean
 
 # Read file as list
-with open("input_1.txt") as file:
+with open("../data/input_1.txt") as file:
    depths = file.read().splitlines()
 depths = list(map(int, depths))
 
