@@ -11,6 +11,6 @@ in at most 15 seconds on ten-year-old hardware.
 
 This are my solutions in which I will complete in a mixture of R, Python and Julia.
 
-Advent of Code is made my [Eric Wastl](http://was.tl/). I am sure he would be happy if you supported him and Advent of Code which you can 
+Advent of Code is made by [Eric Wastl](http://was.tl/). I am sure he would be happy if you supported him and Advent of Code which you can 
 [here](https://adventofcode.com/2021/support).
 
