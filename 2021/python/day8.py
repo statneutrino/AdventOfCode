@@ -10,8 +10,6 @@ def determine_code(pattern):
     eight_code = frozenset([x for x in pattern[list(map(len, pattern)).index(7)]])
     return {one_code:1, four_code:4, seven_code:7, eight_code:8}
 
-determine_code(segments[0][0])
-
 counter = {1:0, 4:0, 7:0, 8:0}
 for i in range(len(segments)):
     four_digit = list(map(lambda x: frozenset([i for i in x]), segments[i][1].split()))
