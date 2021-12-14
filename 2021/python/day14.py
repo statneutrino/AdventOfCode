@@ -30,6 +30,7 @@ def gen_polymer(starter, polymer_dict, n):
 polymer = gen_polymer(starter, polymer_dict, 10)
 
 counts=Counter(polymer).most_common()
+
 answer_1 = counts[0][1] - counts[-1][1]
 
 print("Answer to part 1 is: {}".format(answer_1))
