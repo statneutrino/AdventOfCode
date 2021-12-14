@@ -54,6 +54,7 @@ def count_polymer(starter, polymer_dict, n):
         pairs = new
 
     return max(characters.values()) - min(characters.values())
+
 answer_2 = count_polymer(starter, polymer_dict, 40)
 
 print("Answer to part 2 is: {}".format(answer_2))
